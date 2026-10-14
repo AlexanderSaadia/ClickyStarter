@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03646DCF3696943717306A1B /* ChatHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1657A71B4625FE92DCF1E2A /* ChatHistoryStore.swift */; };
+		133916886F3C07B86A401995 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B15E6E73F947FD75C5200 /* ChatViewModel.swift */; };
+		1A82C62EEE5ADAAE3483C93E /* MockCodexClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA4BE0559665CE153CD9EE /* MockCodexClient.swift */; };
+		1FAE2D969E5CF7FB5406DF54 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8881A3B506A2A370F13B321 /* ChatMessage.swift */; };
+		2DA0755A7E1CCAB4CBC934E9 /* ChatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6B69DA5CEE5413E6921243 /* ChatViewModelTests.swift */; };
+		3B1F5AD5709655FAA8B31C0D /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B7AB07449D4BA0D1B46A09 /* ComposerView.swift */; };
+		58E514934F263172FD9832FB /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5776866A4E82013EDED459 /* ChatView.swift */; };
+		8891218C06B6D91A5ACBCE80 /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2CE8CA129991CF3281338 /* TranscriptView.swift */; };
+		901DBD981B44433E9B2D3BF8 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD909C67084E4AA7B91EE2A /* Conversation.swift */; };
+		A80128EFB9131425DBE4FD60 /* CodexClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890371FCBBFD28EFEB55458A /* CodexClient.swift */; };
+		A8E87D3A29631CFB99CEA2E3 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4259CED2DA84B30A6D48CD /* MessageRow.swift */; };
+		C1AC453AF7D156CC0C105436 /* ClickyStarterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1E42E8F7AA1C0C1A7DD01 /* ClickyStarterApp.swift */; };
+		C2E215DE1685B16C245CEA6F /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1760D96830B4D69324793 /* JSONValue.swift */; };
+		DE2B60D485F084F4DC2BB87C /* CodexServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08C3F9A48DC7C986E71FA68 /* CodexServing.swift */; };
+		E266017BA311875EF4C117DF /* ConnectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBCF371CAF27546CEE50097 /* ConnectionSettingsView.swift */; };
+		EAA6B7ECEBBC91E4102B43A7 /* CodexError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2B8F7C7B24CEDC803F9A3 /* CodexError.swift */; };
+		F3625416DC6329B30C38FC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425C6B42C83E3735F9B7F05B /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75109BEB4DD8800DA6B45F8;
+			remoteInfo = ClickyStarter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E4EE1F79D7F750E8D03CFFC /* FILE GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "FILE GUIDE.md"; sourceTree = "<group>"; };
+		1F4259CED2DA84B30A6D48CD /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		3734006F227DD1AB505D0223 /* create_project.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = create_project.py; sourceTree = "<group>"; };
+		3A5776866A4E82013EDED459 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		3CBCF371CAF27546CEE50097 /* ConnectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSettingsView.swift; sourceTree = "<group>"; };
+		3FB2CE8CA129991CF3281338 /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
+		425C6B42C83E3735F9B7F05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45A1760D96830B4D69324793 /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		475B9651E1E080176CAF5067 /* ConnectionSmokeCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSmokeCheck.swift; sourceTree = "<group>"; };
+		4E783A9E10D2A8ABA38CD11C /* ClickyStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ClickyStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A1E42E8F7AA1C0C1A7DD01 /* ClickyStarterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickyStarterApp.swift; sourceTree = "<group>"; };
+		6C7CCDEB3609F1FAA874E941 /* ClickyStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ClickyStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B7AB07449D4BA0D1B46A09 /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		7B6B69DA5CEE5413E6921243 /* ChatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelTests.swift; sourceTree = "<group>"; };
+		890371FCBBFD28EFEB55458A /* CodexClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexClient.swift; sourceTree = "<group>"; };
+		A4E2B8F7C7B24CEDC803F9A3 /* CodexError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexError.swift; sourceTree = "<group>"; };
+		A8881A3B506A2A370F13B321 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		B1657A71B4625FE92DCF1E2A /* ChatHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHistoryStore.swift; sourceTree = "<group>"; };
+		BFD909C67084E4AA7B91EE2A /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		CBAA4BE0559665CE153CD9EE /* MockCodexClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCodexClient.swift; sourceTree = "<group>"; };
+		E08C3F9A48DC7C986E71FA68 /* CodexServing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexServing.swift; sourceTree = "<group>"; };
+		EF8B15E6E73F947FD75C5200 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		F78A71AF8BBF8CC2F6F31354 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03DB8B2C4E044FB75879BF13 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				475B9651E1E080176CAF5067 /* ConnectionSmokeCheck.swift */,
+				3734006F227DD1AB505D0223 /* create_project.py */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1C36A7D479E2A7F385BEF6D0 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B1657A71B4625FE92DCF1E2A /* ChatHistoryStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		349804233BBA0C5AFE4CB122 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8881A3B506A2A370F13B321 /* ChatMessage.swift */,
+				BFD909C67084E4AA7B91EE2A /* Conversation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37E131D5855A9D5D0F786377 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				425C6B42C83E3735F9B7F05B /* AppDelegate.swift */,
+				54A1E42E8F7AA1C0C1A7DD01 /* ClickyStarterApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4D9B5ED81C8BBAD11A9ACA76 /* Codex */ = {
+			isa = PBXGroup;
+			children = (
+				890371FCBBFD28EFEB55458A /* CodexClient.swift */,
+				A4E2B8F7C7B24CEDC803F9A3 /* CodexError.swift */,
+				E08C3F9A48DC7C986E71FA68 /* CodexServing.swift */,
+				45A1760D96830B4D69324793 /* JSONValue.swift */,
+			);
+			path = Codex;
+			sourceTree = "<group>";
+		};
+		536329F47F8EAF961EDFDB02 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6B69DA5CEE5413E6921243 /* ChatViewModelTests.swift */,
+				CBAA4BE0559665CE153CD9EE /* MockCodexClient.swift */,
+			);
+			name = Tests;
+			path = ClickyStarterTests;
+			sourceTree = "<group>";
+		};
+		602A4ABA2A2B3AF5785704C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B5ED81C8BBAD11A9ACA76 /* Codex */,
+				1C36A7D479E2A7F385BEF6D0 /* Storage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		870B3294C0CBD48AF6BBCC1B = {
+			isa = PBXGroup;
+			children = (
+				E4698C7B32D0C0A2E902D90D /* App */,
+				536329F47F8EAF961EDFDB02 /* Tests */,
+				03DB8B2C4E044FB75879BF13 /* Support */,
+				F78A71AF8BBF8CC2F6F31354 /* README.md */,
+				1E4EE1F79D7F750E8D03CFFC /* FILE GUIDE.md */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1423441CC47A693C0FF1F3C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B15E6E73F947FD75C5200 /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BE3146CC55F2D9160994068D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A5776866A4E82013EDED459 /* ChatView.swift */,
+				74B7AB07449D4BA0D1B46A09 /* ComposerView.swift */,
+				3CBCF371CAF27546CEE50097 /* ConnectionSettingsView.swift */,
+				1F4259CED2DA84B30A6D48CD /* MessageRow.swift */,
+				3FB2CE8CA129991CF3281338 /* TranscriptView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4698C7B32D0C0A2E902D90D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				37E131D5855A9D5D0F786377 /* Application */,
+				349804233BBA0C5AFE4CB122 /* Models */,
+				B1423441CC47A693C0FF1F3C /* ViewModels */,
+				BE3146CC55F2D9160994068D /* Views */,
+				602A4ABA2A2B3AF5785704C8 /* Services */,
+			);
+			name = App;
+			path = ClickyStarter;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E783A9E10D2A8ABA38CD11C /* ClickyStarter.app */,
+				6C7CCDEB3609F1FAA874E941 /* ClickyStarterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C062A5A4A7F4F37DD90F54CB /* ClickyStarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19170B56EA5642A46C383F29 /* Build configuration list for PBXNativeTarget "ClickyStarterTests" */;
+			buildPhases = (
+				2251F79CE8CE79DDA18CF73E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = ClickyStarterTests;
+			productName = ClickyStarterTests;
+			productReference = 6C7CCDEB3609F1FAA874E941 /* ClickyStarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F75109BEB4DD8800DA6B45F8 /* ClickyStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4867F1BF372A84237FA0A5A7 /* Build configuration list for PBXNativeTarget "ClickyStarter" */;
+			buildPhases = (
+				04D687DD49DEA6F33518F80D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickyStarter;
+			productName = ClickyStarter;
+			productReference = 4E783A9E10D2A8ABA38CD11C /* ClickyStarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = 640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "ClickyStarter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 870B3294C0CBD48AF6BBCC1B;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75109BEB4DD8800DA6B45F8 /* ClickyStarter */,
+				C062A5A4A7F4F37DD90F54CB /* ClickyStarterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D687DD49DEA6F33518F80D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3625416DC6329B30C38FC53 /* AppDelegate.swift in Sources */,
+				C1AC453AF7D156CC0C105436 /* ClickyStarterApp.swift in Sources */,
+				1FAE2D969E5CF7FB5406DF54 /* ChatMessage.swift in Sources */,
+				901DBD981B44433E9B2D3BF8 /* Conversation.swift in Sources */,
+				133916886F3C07B86A401995 /* ChatViewModel.swift in Sources */,
+				58E514934F263172FD9832FB /* ChatView.swift in Sources */,
+				3B1F5AD5709655FAA8B31C0D /* ComposerView.swift in Sources */,
+				E266017BA311875EF4C117DF /* ConnectionSettingsView.swift in Sources */,
+				A8E87D3A29631CFB99CEA2E3 /* MessageRow.swift in Sources */,
+				8891218C06B6D91A5ACBCE80 /* TranscriptView.swift in Sources */,
+				A80128EFB9131425DBE4FD60 /* CodexClient.swift in Sources */,
+				EAA6B7ECEBBC91E4102B43A7 /* CodexError.swift in Sources */,
+				DE2B60D485F084F4DC2BB87C /* CodexServing.swift in Sources */,
+				C2E215DE1685B16C245CEA6F /* JSONValue.swift in Sources */,
+				03646DCF3696943717306A1B /* ChatHistoryStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2251F79CE8CE79DDA18CF73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA0755A7E1CCAB4CBC934E9 /* ChatViewModelTests.swift in Sources */,
+				1A82C62EEE5ADAAE3483C93E /* MockCodexClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75109BEB4DD8800DA6B45F8 /* ClickyStarter */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A8C91857F674E16E2724F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clicky Starter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandersaadia.ClickyStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		942EEBBACD6C88CAE7F29B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandersaadia.ClickyStarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickyStarter.app/Contents/MacOS/ClickyStarter";
+			};
+			name = Release;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E9B2E96ABC5F6856F2BE79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clicky Starter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandersaadia.ClickyStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCB48D8F88BCDB0ED9FADFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandersaadia.ClickyStarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickyStarter.app/Contents/MacOS/ClickyStarter";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19170B56EA5642A46C383F29 /* Build configuration list for PBXNativeTarget "ClickyStarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB48D8F88BCDB0ED9FADFD7 /* Debug */,
+				942EEBBACD6C88CAE7F29B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4867F1BF372A84237FA0A5A7 /* Build configuration list for PBXNativeTarget "ClickyStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B2E96ABC5F6856F2BE79CF /* Debug */,
+				5A8C91857F674E16E2724F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "ClickyStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
